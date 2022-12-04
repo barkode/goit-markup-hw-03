@@ -17,12 +17,12 @@ img {
   display: block;
 }
 
-.list {
-  list-style: none;
+a {
+  text-decoration: none;
 }
 
-.link {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 
 .visual-hidden {
