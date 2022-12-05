@@ -84,7 +84,33 @@ body {
 
 .page-header-container {
   display: flex;
+  align-items: center;
+  padding: 24px 156px;
 }
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* /* .page-adrs {
+  display: flex;
+  align-items: center;
+  /* margin-left: 331px;
+} */
+
+/* .page-adrs-item {
+  margin-left: 40px;
+} */
 
 /* Logo */
 .logo {
@@ -95,6 +121,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
+  margin-right: 77px;
 }
 .logo-white {
   color: var(--light-color);
