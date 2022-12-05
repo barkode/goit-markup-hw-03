@@ -15,12 +15,12 @@
   </head>
   <body>
     <header class="page-hader">
-      <div class="container header-container">
+      <div class="container page-header-container">
         <a href="./index.html" class="logo"
           >web<span class="logo-black">studio</span></a
         >
         <nav class="page-nav">
-          <ul class="menu list">
+          <ul class="menu">
             <li class="menu-item">
               <a href="./index.html" class="menu-link">Studio</a>
             </li>
@@ -32,7 +32,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="list">
+        <ul>
           <li>
             <a href="maito:info@devstudio.com" class="contact-email"
               >info@devstudio.com</a
@@ -48,12 +48,14 @@
     </header>
     <main>
       <section class="hero section">
-        <h1 class="hero-header">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn">Order Service</button>
+        <div class="container">
+          <h1 class="hero-header">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn">Order Service</button>
+        </div>
       </section>
-      <section class="section">
+      <section class="section container">
         <h2 class="visual-hidden">Main Description</h2>
-        <ul class="list">
+        <ul>
           <li>
             <h3 class="descr-header">Strategy</h3>
             <p class="descr-text">
@@ -84,9 +86,10 @@
           </li>
         </ul>
       </section>
-      <section class="work-section section">
+      <section class="work section container">
+        <!-- <div class="container"> -->
         <h2 class="work-header">What Are We Doing</h2>
-        <ul class="list">
+        <ul>
           <li>
             <img src="./images/nettop.jpg" alt="Nettop" width="360" />
           </li>
@@ -97,10 +100,11 @@
             <img src="./images/integration.jpg" alt="Integration" width="360" />
           </li>
         </ul>
+        <!-- </div> -->
       </section>
-      <section class="team section">
+      <section class="team section container">
         <h2 class="team-header">our team</h2>
-        <ul class="list">
+        <ul>
           <li class="team-item">
             <img
               src="./images/mark_guerrero.jpg"
@@ -136,7 +140,7 @@
         </ul>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer container">
       <a href="./index.html" class="logo"
         >web<span class="logo-white">studio</span></a
       >
