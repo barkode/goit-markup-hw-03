@@ -161,13 +161,13 @@ body {
   padding-bottom: 192px;
 }
 .hero-header {
-  display: inline-block;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--bgrnd-color);
   text-align: center;
+  margin: auto;
   margin-bottom: 48px;
   width: 500px;
 }
@@ -200,21 +200,30 @@ body {
   background-color: var(--hero-btn-backgroung);
 }
 
-.descr-header {
+.strategy {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.strategy-header {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 
-.descr-text {
+.strategy-text {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
 
+.work {
+  padding-bottom: 120px;
+}
 .work-header,
 .team-header {
   font-weight: 700;
@@ -225,6 +234,7 @@ body {
   color: var(--dark-color);
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team {
