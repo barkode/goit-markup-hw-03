@@ -208,9 +208,11 @@ body {
 }
 .strategy {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
+.section {
+  padding-bottom: 120px;
+}
 .strategy-item {
   width: 264px;
 }
@@ -237,9 +239,6 @@ body {
   column-gap: 24px;
   flex-wrap: wrap;
 }
-.work {
-  padding-bottom: 120px;
-}
 
 .work-header,
 .team-header {
@@ -256,7 +255,6 @@ body {
 
 .team {
   background-color: var(--light-color);
-  padding-bottom: 120px;
   padding-top: 120px;
 }
 
