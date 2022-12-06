@@ -272,6 +272,10 @@ body {
   padding-top: 32px 16px;
 }
 
+.team-img-descr {
+  padding: 32px 16px;
+}
+
 .descr-footer {
   color: var(--accent-color);
   width: 264px;
