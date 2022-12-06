@@ -29,10 +29,6 @@ button {
   cursor: pointer;
 }
 
-/* .list {
-  list-style: none;
-} */
-
 .visual-hidden {
   position: absolute;
   white-space: nowrap;
@@ -77,21 +73,13 @@ body {
   padding-right: 15px;
 }
 
-.adrs {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.page-header {
+  padding: 24px 0;
 }
-
-/* .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
 
 .page-header-container {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 156px;
+  justify-content: flex-start;
 }
 
 .page-nav {
@@ -104,19 +92,15 @@ body {
   align-items: center;
 }
 
+.menu-contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
-
-/* /* .page-adrs {
-  display: flex;
-  align-items: center;
-  /* margin-left: 331px;
-} */
-
-/* .page-adrs-item {
-  margin-left: 40px;
-} */
 
 /* Logo */
 .logo {
