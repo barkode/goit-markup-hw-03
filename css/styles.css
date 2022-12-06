@@ -122,7 +122,8 @@ body {
 }
 
 .logo-partfolio-border {
-  border-bottom: 1px solid #000;
+  border-color: var(--light-color);
+  border-bottom: 0.5px solid;
 }
 
 .menu-link {
