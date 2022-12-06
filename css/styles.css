@@ -77,14 +77,20 @@ body {
   padding-right: 15px;
 }
 
-.section {
+.adrs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 .page-header-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 24px 156px;
 }
 
@@ -178,6 +184,7 @@ body {
 }
 
 .hero-btn {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -185,6 +192,9 @@ body {
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
   font-family: var(--primary-font);
+  margin: 0 auto;
+  width: 170px;
+  height: 51px;
 }
 
 .hero-btn:hover,
