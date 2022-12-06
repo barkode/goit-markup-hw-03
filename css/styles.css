@@ -203,11 +203,16 @@ body {
 .strategy-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  column-gap: 24px;
+  flex-wrap: wrap;
 }
 .strategy {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.strategy-item {
+  width: 264px;
 }
 
 .strategy-header {
@@ -229,7 +234,8 @@ body {
 .work-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  column-gap: 24px;
+  flex-wrap: wrap;
 }
 .work {
   padding-bottom: 120px;
@@ -251,19 +257,21 @@ body {
 .team {
   background-color: var(--light-color);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-}
-
-.team-item:not(:last-child) {
-  margin-right: 24px;
+  margin-top: 72px;
+  column-gap: 24px;
 }
 
 .team-item {
   background-color: var(--bgrnd-color);
+  text-align: center;
+  padding-top: 32px 16px;
 }
 
 .descr-footer {
