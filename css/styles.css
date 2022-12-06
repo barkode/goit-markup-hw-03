@@ -200,6 +200,11 @@ body {
   background-color: var(--hero-btn-backgroung);
 }
 
+.strategy-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .strategy {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -221,9 +226,15 @@ body {
   color: var(--body-text-color);
 }
 
+.work-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .work {
   padding-bottom: 120px;
 }
+
 .work-header,
 .team-header {
   font-weight: 700;
@@ -239,6 +250,16 @@ body {
 
 .team {
   background-color: var(--light-color);
+  padding-bottom: 120px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .team-item {
@@ -247,10 +268,14 @@ body {
 
 .descr-footer {
   color: var(--accent-color);
+  width: 264px;
+  margin-top: 16px;
 }
 
 .page-footer {
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .menu-btn {
