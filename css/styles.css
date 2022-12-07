@@ -174,7 +174,6 @@ body {
 }
 
 .hero-btn {
-  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -204,9 +203,7 @@ body {
 
 .strategy-list {
   display: flex;
-  align-items: center;
   column-gap: 24px;
-  flex-wrap: wrap;
 }
 .strategy {
   padding-top: 120px;
@@ -216,7 +213,7 @@ body {
   padding-bottom: 120px;
 }
 .strategy-item {
-  width: 264px;
+  flex-basis: calc((100% - (3 * 24px)) / 4);
 }
 
 .strategy-header {
@@ -257,14 +254,12 @@ body {
 
 .team {
   background-color: var(--light-color);
-  /* padding-top: 120px; */
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 72px;
   column-gap: 24px;
 }
 
@@ -314,9 +309,8 @@ body {
   align-items: center;
   justify-content: center;
   column-gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  outline: 2px solid tomato;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 .our-work {
