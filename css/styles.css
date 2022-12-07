@@ -259,7 +259,7 @@ body {
 
 .team {
   background-color: var(--light-color);
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 
 .team-list {
