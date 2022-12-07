@@ -253,6 +253,7 @@ body {
 
 .team {
   background-color: var(--light-color);
+  padding-top: 94px;
 }
 
 .team-list {
