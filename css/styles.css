@@ -238,6 +238,10 @@ body {
   flex-wrap: wrap;
 }
 
+.work-item {
+  flex-basis: calc((100% - (2 * 24px)) / 3);
+}
+
 .work-header,
 .team-header {
   font-weight: 700;
