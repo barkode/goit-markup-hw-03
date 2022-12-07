@@ -313,12 +313,14 @@ body {
 }
 
 .portfolio-menu {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 24px;
   padding-top: 96px;
   padding-bottom: 72px;
 }
+
 .our-work {
   display: flex;
   flex-wrap: wrap;
