@@ -121,11 +121,6 @@ body {
   color: var(--dark-color);
 }
 
-.logo-partfolio-border {
-  border-color: var(--light-color);
-  border-bottom: 0.5px solid;
-}
-
 .menu-link {
   font-weight: 500;
   line-height: 1.5;
