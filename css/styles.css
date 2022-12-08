@@ -307,13 +307,15 @@ body {
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
 }
+.portfolio-section {
+  padding-top: 96px;
+}
 
 .portfolio-menu {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 24px;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 
